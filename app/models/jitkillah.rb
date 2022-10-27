@@ -1,0 +1,2 @@
+class Jitkillah < ApplicationRecord
+end

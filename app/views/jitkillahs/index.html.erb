@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Jitkillahs</h1>
+
+<div id="jitkillahs">
+  <% @jitkillahs.each do |jitkillah| %>
+    <%= render jitkillah %>
+    <p>
+      <%= link_to "Show this jitkillah", jitkillah %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New jitkillah", new_jitkillah_path %>
